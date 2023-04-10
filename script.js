@@ -8,6 +8,6 @@ document.getElementById("buttonAge").addEventListener("click", function(){
     var timeDiff = Math.abs(tgl2.getTime() - tgl1.getTime());
     var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
     document.getElementById("yourAge").innerHTML = Math.round(diffDays/365) + " Tahun";
-    document.getElementById("hasil-nama").innerHTML = nama.value
+    // document.getElementById("hasil-nama").innerHTML = nama.value
 });
 
