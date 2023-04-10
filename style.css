@@ -57,6 +57,10 @@ body{
     color: #fff;
     font-size: 20px;
 }
+
+.btn{
+    cursor:pointer
+}
 .container .form button{
     width: 100%;
     padding: 5px 0;
